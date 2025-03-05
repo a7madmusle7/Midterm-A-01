@@ -1,33 +1,33 @@
 /* 
- * Project myProject
- * Author: Your Name
- * Date: 
+ * Project: Magician's Staff (ie kind of like Gandald's staff)
+ * Author:  Ahmad Musleh   |   https://github.com/a7madmusle7
+ * Date:    2025-March-04
  */
 
-// Include Particle Device OS APIs
+/*
+ * This is a rought draft / psuedo code as comments for the midterm project.
+ * The minimum goal is to control the hue lights and Wemo switches in the classroom. I am also required to use certain parts like the OLED display.
+ * I will be using buttons to run different controls. The buttons will be attached along the length of a wooden dowel.
+ * Larger parts will be housed in the end of the rod in an enclosure.
+ * Upon first glance, the staff will look like a regular decoration, without any functionality.
+*/
+
 #include "Particle.h"
 
-// Let Device OS manage the connection to the Particle Cloud
+
 SYSTEM_MODE(AUTOMATIC);
 
-// Run the application and system concurrently in separate threads
+
 SYSTEM_THREAD(ENABLED);
 
-// Show system, cloud connectivity, and application logs over USB
-// View logs with CLI using 'particle serial monitor --follow'
+
 SerialLogHandler logHandler(LOG_LEVEL_INFO);
 
-// setup() runs once, when the device is first turned on
 void setup() {
-  // Put initialization like pinMode and begin functions here
+  
 }
 
-// loop() runs over and over again, as quickly as it can execute.
-void loop() {
-  // The core of your code will likely live here.
 
-  // Example: Publish event to cloud every 10 seconds. Uncomment the next 3 lines to try it!
-  // Log.info("Sending Hello World to the cloud!");
-  // Particle.publish("Hello world!");
-  // delay( 10 * 1000 ); // milliseconds and blocking - see docs for more info!
+void loop() {
+
 }
